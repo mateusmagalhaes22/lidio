@@ -1,0 +1,12 @@
+body {
+  background: #cccccc;
+  font-size: 2em;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #a1a1a1;
+  box-shadow: 0 2px 8px rgb(0, 0, 0);
+}

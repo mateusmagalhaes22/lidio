@@ -1,12 +1,9 @@
+
 import React from 'react';
+import PaginaInicial from './pagina-inicial';
 
 function Home() {
-  return (
-    <div>
-      <h1>Welcome to Lidio</h1>
-      <p>Your platform for selling grease trap covers and more.</p>
-    </div>
-  );
+  return <PaginaInicial />;
 }
 
 export default Home;
