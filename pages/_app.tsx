@@ -6,8 +6,10 @@ import Menu from '../components/Menu';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Menu />
-      <Component {...pageProps} />
+      <Menu/>
+      <div style={{margin: '2%'}} >
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }
