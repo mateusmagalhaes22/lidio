@@ -1,6 +1,7 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import ProductCard from '../components/ProductCard';
+import styles from '../styles/pages/produtos.module.css';
 
 const produtos = [
   {
@@ -30,7 +31,7 @@ const onSelectProduct = (produto) => {
 
 function Produtos() {
   return (
-    <div>
+    <div className={styles.root}>
       <h1>Nossos produtos</h1>
       <Grid container spacing={'5%'}>
         {produtos.map((produto) => (

@@ -1,12 +1,14 @@
+
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
+import styles from '../styles/components/ProductCard.module.css';
 
 const ProductCard = ({ produto, onClick }) => {
   return (
-    <Card>
+    <Card className={styles.root}>
       <CardActionArea onClick={onClick}>
         <CardMedia
           component="img"
