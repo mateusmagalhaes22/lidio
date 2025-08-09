@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev"
+    "dev": "cp .env.development .env && next dev",
+    "qa": "cp .env.qa .env && next dev",
+    "prod": "cp .env.production .env && next build && next start"
   },
   "repository": {
     "type": "git",
