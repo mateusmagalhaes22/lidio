@@ -13,18 +13,18 @@ const ProductCard = ({ produto, onClick }) => {
         <CardMedia
           component="img"
           height="300"
-          image={produto.imagem}
-          alt={produto.titulo}
+          image={produto.image}
+          alt={produto.title}
         />
         <CardContent>
           <Typography variant="h5" component="div">
-            {produto.titulo}
+            {produto.title}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {produto.descricao}
+            {produto.description}
           </Typography>
           <Typography variant="h6" color="primary" sx={{ mt: 2 }}>
-            {produto.preco}
+            {produto.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
           </Typography>
         </CardContent>
       </CardActionArea>
