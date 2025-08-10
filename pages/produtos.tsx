@@ -9,7 +9,7 @@ const Produtos = () => {
   const [produtos, setProdutos] = useState([]);
 
   useEffect(() => {
-    fetch(`${API_BASE_URL}/products`)
+    fetch(`${API_BASE_URL}products`)
       .then(res => res.json())
       .then(data => setProdutos(data))
       .catch(() => setProdutos([]));
