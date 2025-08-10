@@ -1,8 +1,10 @@
+
 import React from 'react';
+import styles from '../styles/pages/pagina-inicial.module.css';
 
 function PaginaInicial() {
   return (
-    <div>
+    <div className={styles.root}>
       <h1>Bem vindo a Lidio</h1>
       <p>Precisando de tampas resistentes para caixas de gordura no seu condomínio? A gente resolve!
 Fabricamos tampas de fibra de vidro reforçada com aço, prontas pra encarar o dia a dia com segurança e durabilidade.

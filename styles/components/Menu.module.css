@@ -1,0 +1,9 @@
+.navButton {
+  border-radius: 20px !important;
+  height: 40px;
+  min-width: 120px;
+  padding: 0 2em;
+  font-weight: bold;
+  box-shadow: none !important;
+  color: #fff !important;
+}
